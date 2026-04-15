@@ -376,6 +376,125 @@
         .testimonial-author { font-weight: 600; font-size: 0.9rem; }
         .testimonial-role { color: var(--text-muted); font-size: 0.8rem; }
 
+        /* ===== INDUSTRIES ===== */
+        .industry-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+            gap: 1rem;
+        }
+        .industry-card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            padding: 1.25rem 1rem;
+            text-align: center;
+        }
+        .industry-card .icon { font-size: 1.75rem; margin-bottom: 0.5rem; }
+        .industry-card h3 { font-size: 0.95rem; font-weight: 700; margin-bottom: 0.35rem; }
+        .industry-card p { font-size: 0.8rem; color: var(--text-muted); line-height: 1.4; }
+
+        /* ===== SAMPLE DELIVERABLE PREVIEW ===== */
+        .deliverable-preview {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 2rem;
+            margin-top: 2.5rem;
+            max-width: 750px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .deliverable-label {
+            display: inline-block;
+            background: #dbeafe;
+            color: var(--primary);
+            font-size: 0.72rem;
+            font-weight: 700;
+            padding: 0.2rem 0.65rem;
+            border-radius: 20px;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 0.5rem;
+        }
+        .sample-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 0.75rem;
+            padding: 0.85rem 0;
+            border-bottom: 1px solid var(--border);
+        }
+        .sample-item:last-of-type { border-bottom: none; }
+        .sample-priority {
+            flex-shrink: 0;
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.7rem;
+            font-weight: 700;
+            color: white;
+            margin-top: 2px;
+        }
+        .priority-high { background: var(--danger); }
+        .priority-med { background: var(--warning); }
+        .priority-low { background: var(--success); }
+        .sample-item-content h4 { font-size: 0.9rem; font-weight: 600; margin-bottom: 0.2rem; }
+        .sample-item-content p { font-size: 0.82rem; color: var(--text-muted); line-height: 1.45; }
+
+        /* ===== POST-AUDIT CTA BAND ===== */
+        section.cta-band {
+            max-width: 100%;
+            margin: 0;
+        }
+        .cta-band {
+            background: #eff6ff;
+            border-top: 1px solid #bfdbfe;
+            border-bottom: 1px solid #bfdbfe;
+            max-width: 100%;
+            padding: 3.5rem 2rem;
+            text-align: center;
+        }
+        .cta-band h2 { font-size: 1.6rem; font-weight: 700; margin-bottom: 0.75rem; }
+        .cta-band > p { color: var(--text-muted); max-width: 560px; margin: 0 auto 2rem; font-size: 1rem; }
+        .cta-options {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+            max-width: 820px;
+            margin: 0 auto;
+        }
+        .cta-option {
+            flex: 1;
+            min-width: 200px;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 1.5rem 1.25rem;
+            text-align: center;
+        }
+        .cta-option-label { font-size: 0.72rem; font-weight: 700; text-transform: uppercase; color: var(--text-muted); letter-spacing: 0.06em; margin-bottom: 0.4rem; }
+        .cta-option h3 { font-size: 1rem; font-weight: 700; margin-bottom: 0.4rem; }
+        .cta-option p { font-size: 0.82rem; color: var(--text-muted); margin-bottom: 1rem; line-height: 1.45; }
+
+        /* ===== OPERATOR CREDIBILITY ===== */
+        .credibility-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+        }
+        .credibility-card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 1.75rem;
+        }
+        .credibility-card .cred-icon { font-size: 1.75rem; margin-bottom: 0.75rem; }
+        .credibility-card h3 { font-size: 1rem; font-weight: 700; margin-bottom: 0.5rem; }
+        .credibility-card p { font-size: 0.9rem; color: var(--text-muted); line-height: 1.55; }
+
         /* ===== FOOTER ===== */
         footer {
             background: #1e293b;
@@ -403,6 +522,7 @@
     <div>
         <a href="#problems">Why Us</a>
         <a href="#how">How It Works</a>
+        <a href="#industries">Industries</a>
         <a href="#pricing">Pricing</a>
         <a href="#audit-section" class="nav-cta">Free Audit →</a>
     </div>
@@ -491,6 +611,64 @@
     </div>
 </section>
 
+<!-- INDUSTRIES SERVED -->
+<section id="industries">
+    <h2 class="section-title">Industries We Work With</h2>
+    <p class="section-subtitle">Local SEO looks different depending on how customers search for your type of business</p>
+    <div class="industry-grid">
+        <div class="industry-card">
+            <div class="icon">🍕</div>
+            <h3>Restaurant / Café</h3>
+            <p>Reviews, photos, and Google menu attributes are the biggest ranking levers</p>
+        </div>
+        <div class="industry-card">
+            <div class="icon">🛍️</div>
+            <h3>Retail Store</h3>
+            <p>Product attributes, in-store pickup signals, and consistent NAP across directories</p>
+        </div>
+        <div class="industry-card">
+            <div class="icon">✂️</div>
+            <h3>Salon / Barbershop</h3>
+            <p>Booking links, staff profiles, and recent photo uploads drive visibility</p>
+        </div>
+        <div class="industry-card">
+            <div class="icon">🦷</div>
+            <h3>Dental / Medical</h3>
+            <p>Trust signals, insurance info, and appointment booking integration matter most</p>
+        </div>
+        <div class="industry-card">
+            <div class="icon">🔧</div>
+            <h3>Auto Repair</h3>
+            <p>Service area coverage pages and emergency search terms drive most inbound calls</p>
+        </div>
+        <div class="industry-card">
+            <div class="icon">⚖️</div>
+            <h3>Law Firm</h3>
+            <p>Practice area specificity and review trust signals outweigh raw review volume</p>
+        </div>
+        <div class="industry-card">
+            <div class="icon">🔩</div>
+            <h3>Plumbing / HVAC</h3>
+            <p>Emergency keywords and radius-based service area pages are the highest priority fixes</p>
+        </div>
+        <div class="industry-card">
+            <div class="icon">💪</div>
+            <h3>Gym / Fitness</h3>
+            <p>Amenity listings, class schedule info, and GBP Q&A sections boost sign-up intent</p>
+        </div>
+        <div class="industry-card">
+            <div class="icon">🏡</div>
+            <h3>Real Estate</h3>
+            <p>Agent-level GBP profiles, neighborhood content, and review recency build trust</p>
+        </div>
+        <div class="industry-card">
+            <div class="icon">🏢</div>
+            <h3>Other Service Business</h3>
+            <p>Citation consistency, GBP completeness, and service area definition are the baseline</p>
+        </div>
+    </div>
+</section>
+
 <!-- PRICING -->
 <section id="pricing">
     <h2 class="section-title">Simple, Honest Local SEO Pricing</h2>
@@ -569,8 +747,35 @@
     <div class="audit-report" id="auditReport"></div>
 </section>
 
+<!-- POST-AUDIT CTA BAND -->
+<section class="cta-band" id="next-steps">
+    <h2>Saw your audit results?</h2>
+    <p>You now know what's costing you customers. Here are your three options for what to do next.</p>
+    <div class="cta-options">
+        <div class="cta-option">
+            <div class="cta-option-label">Option A</div>
+            <h3>Fix It Yourself</h3>
+            <p>Use the free audit report and priority plan to guide your own improvements. No cost, no obligation.</p>
+            <a href="#audit-section" class="btn btn-outline" style="width:100%; display:block; text-align:center; font-size:0.9rem;">Run Free Audit</a>
+        </div>
+        <div class="cta-option">
+            <div class="cta-option-label">Option B — Most Direct</div>
+            <h3>One-Time Audit + Fix</h3>
+            <p>We execute the fix plan for you. One-time $199, no subscription, no upsell pressure.</p>
+            <a href="https://buy.stripe.com/aFaaEW98keCq43x06CcfK00" target="_blank" class="btn btn-primary" style="width:100%; display:block; text-align:center; font-size:0.9rem;">Get Started — $199</a>
+        </div>
+        <div class="cta-option">
+            <div class="cta-option-label">Option C</div>
+            <h3>Ongoing SEO Support</h3>
+            <p>Monthly plan with GBP posts, monitoring, and continuous local SEO maintenance.</p>
+            <a href="#pricing" class="btn btn-outline" style="width:100%; display:block; text-align:center; font-size:0.9rem;">See Monthly Plans</a>
+        </div>
+    </div>
+    <p style="font-size:0.82rem; color:var(--text-muted); margin-top:1.5rem;">Questions before committing? Email <a href="mailto:reesepieroni1@gmail.com" style="color:var(--primary);">reesepieroni1@gmail.com</a> — you'll hear back from the person doing the actual work.</p>
+</section>
+
 <!-- WHAT YOU GET -->
-<section>
+<section id="deliverables">
     <h2 class="section-title">What You Get in the $199 Audit</h2>
     <p class="section-subtitle">A practical local SEO review modeled after the same work we’d sell to a paying client.</p>
     <div class="problems-grid">
@@ -605,6 +810,51 @@
             <p>We walk you through the findings and explain what matters, what doesn’t, and where the fastest wins are.</p>
         </div>
     </div>
+
+    <!-- SAMPLE DELIVERABLE PREVIEW -->
+    <div class="deliverable-preview">
+        <div class="deliverable-label">Sample Deliverable</div>
+        <h3 style="font-size:1.1rem; margin-top:0.4rem; margin-bottom:0.25rem;">Priority Fix Plan — What a Real Deliverable Looks Like</h3>
+        <p style="font-size:0.85rem; color:var(--text-muted); margin-bottom:1.25rem;">This is the kind of specific, ranked action plan you receive — not generic advice. Names and data are illustrative.</p>
+
+        <div class="sample-item">
+            <div class="sample-priority priority-high">1</div>
+            <div class="sample-item-content">
+                <h4>Complete your GBP business description</h4>
+                <p>Current: 48 characters. Target: 750+ characters with local keywords. Estimated impact: +20–35% profile views within 3 weeks of update.</p>
+            </div>
+        </div>
+        <div class="sample-item">
+            <div class="sample-priority priority-high">2</div>
+            <div class="sample-item-content">
+                <h4>Add 3 secondary GBP business categories</h4>
+                <p>Your competitors average 4 categories. Each additional category expands the searches you appear for. Implementation time: ~10 minutes in GBP dashboard.</p>
+            </div>
+        </div>
+        <div class="sample-item">
+            <div class="sample-priority priority-med">3</div>
+            <div class="sample-item-content">
+                <h4>Fix NAP inconsistency on Yelp and Apple Maps</h4>
+                <p>Your address format differs across 3 major directories. Google cross-references these — inconsistency reduces trust and suppresses rankings.</p>
+            </div>
+        </div>
+        <div class="sample-item">
+            <div class="sample-priority priority-med">4</div>
+            <div class="sample-item-content">
+                <h4>Set up a post-visit review request system</h4>
+                <p>You have 12 reviews; your top local competitor has 84. A simple QR code or follow-up text request typically adds 3–6 reviews per month with no paid tools required.</p>
+            </div>
+        </div>
+        <div class="sample-item">
+            <div class="sample-priority priority-low">5</div>
+            <div class="sample-item-content">
+                <h4>Add LocalBusiness schema markup to your homepage</h4>
+                <p>Missing structured data means AI assistants (ChatGPT, Gemini, Perplexity) cannot reliably surface your business in responses. Fix takes about 1 hour to implement.</p>
+            </div>
+        </div>
+
+        <p style="font-size:0.8rem; color:var(--text-muted); margin-top:1.25rem; text-align:center; padding-top:1rem; border-top:1px solid var(--border);">This is representative of the format and specificity you receive. Your actual plan reflects your business, city, and competitors.</p>
+    </div>
 </section>
 
 <!-- FAQ -->
@@ -631,28 +881,40 @@
     </div>
 </section>
 
-<!-- WHY RANKREADY -->
-<section>
-    <h2 class="section-title">Why RankReady?</h2>
-    <p class="section-subtitle">What makes us different from traditional SEO agencies</p>
-    <div class="testimonials">
-        <div class="testimonial">
-            <div class="testimonial-stars">⚡</div>
-            <p>Traditional agencies often overcomplicate local SEO and charge agency prices. We keep the scope focused, the deliverables clear, and the cost reasonable.</p>
-            <div class="testimonial-author">Affordable</div>
-            <div class="testimonial-role">1/3 the cost of traditional agencies</div>
+<!-- OPERATOR CREDIBILITY -->
+<section id="about">
+    <h2 class="section-title">Who's Behind RankReady</h2>
+    <p class="section-subtitle">Honest information about what this is and how it works — before you spend a dollar</p>
+    <div class="credibility-grid">
+        <div class="credibility-card">
+            <div class="cred-icon">👤</div>
+            <h3>Solo Operator, Not an Agency</h3>
+            <p>RankReady is run by one person — not a team of account managers passing your project between departments. You work directly with the person doing the actual SEO work. That means less overhead, more accountability, and no upselling you into services you don't need.</p>
         </div>
-        <div class="testimonial">
-            <div class="testimonial-stars">🤖</div>
-            <p>Our AI-powered tools analyze your Google presence in seconds — not days. You get a detailed audit report before you spend a dime.</p>
-            <div class="testimonial-author">AI-Powered</div>
-            <div class="testimonial-role">Instant analysis, faster results</div>
+        <div class="credibility-card">
+            <div class="cred-icon">📋</div>
+            <h3>Specific Deliverables, Not Vague Promises</h3>
+            <p>Every engagement comes with a written fix plan documented before work starts. You know exactly what's being done and why. No mystery deliverables, no "trust the process" — just a clear list of specific actions and their expected impact.</p>
         </div>
-        <div class="testimonial">
-            <div class="testimonial-stars">📊</div>
-            <p>Every recommendation is backed by data. No guesswork, no vague promises — just specific actions that improve your Google ranking.</p>
-            <div class="testimonial-author">Data-Driven</div>
-            <div class="testimonial-role">Transparent reporting every month</div>
+        <div class="credibility-card">
+            <div class="cred-icon">🚫</div>
+            <h3>No Black-Hat Tactics</h3>
+            <p>We don't buy fake reviews, keyword-stuff profiles, or use techniques that risk your Google Business listing. Short-term tricks can get a business delisted or penalized. We focus on the fundamentals that Google has rewarded consistently and continues to reward in 2026.</p>
+        </div>
+        <div class="credibility-card">
+            <div class="cred-icon">📊</div>
+            <h3>Transparent Monthly Reporting</h3>
+            <p>Monthly clients receive a plain-language performance report covering what was done, what changed in search visibility, and what's planned next month. You'll always know what you're paying for and whether it's working.</p>
+        </div>
+        <div class="credibility-card">
+            <div class="cred-icon">❌</div>
+            <h3>No Ranking Guarantees</h3>
+            <p>Any SEO provider who guarantees a specific ranking position is either being dishonest or using tactics that will eventually hurt you. We're straightforward about what local SEO can realistically achieve — and what factors are outside anyone's control.</p>
+        </div>
+        <div class="credibility-card">
+            <div class="cred-icon">💬</div>
+            <h3>Direct Access, Fast Replies</h3>
+            <p>Questions go directly to the person doing the work — not a support queue or chatbot. Email response time is typically within one business day. If something isn't working as expected, you'll hear about it before you notice it yourself.</p>
         </div>
     </div>
 </section>
@@ -800,8 +1062,13 @@ function generateAudit(bizName, city, type, website) {
     </div>
 
     <div class="report-cta">
-        <p>Want us to fix everything in this report? Most businesses see results within 30 days.</p>
-        <a href="#pricing" class="btn btn-primary" onclick="document.getElementById('auditReport').classList.remove('visible')">See Our Plans →</a>
+        <p style="font-weight:600; color:var(--text); font-size:1rem; margin-bottom:0.5rem;">What do you want to do with these results?</p>
+        <p>You can take this report and fix it yourself — everything above is specific enough to act on. Or we can handle it for you.</p>
+        <div style="display:flex; gap:1rem; justify-content:center; flex-wrap:wrap; margin-top:1.25rem;">
+            <a href="https://buy.stripe.com/aFaaEW98keCq43x06CcfK00" target="_blank" class="btn btn-primary">Have Us Fix It — $199 One-Time →</a>
+            <a href="#pricing" class="btn btn-outline" onclick="document.getElementById('auditReport').scrollIntoView ? null : null">See All Plans</a>
+        </div>
+        <p style="font-size:0.82rem; color:var(--text-muted); margin-top:1rem;">No obligation to buy. If you want to talk through these findings first, email <a href="mailto:reesepieroni1@gmail.com" style="color:var(--primary);">reesepieroni1@gmail.com</a> — you'll reach the person doing the actual work.</p>
     </div>`;
 }
 
