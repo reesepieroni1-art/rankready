@@ -16,9 +16,9 @@
 
 ---
 
-**Subject line options (test these — pick one per niche batch):**
-- `Found something on your Google listing — [Business Name]`
-- `[Business Name] — one issue on your Google profile worth fixing`
+**Subject line options (test these - pick one per niche batch):**
+- `Found something on your Google listing - [Business Name]`
+- `[Business Name] - one issue on your Google profile worth fixing`
 - `Quick note about [Business Name]'s Google Maps ranking`
 - `Why [Business Name] might be losing calls to [Competitor Name]`
 
@@ -30,25 +30,25 @@
 >
 > I ran a quick audit on [Business Name]'s Google Business Profile and found a few things that are likely costing you calls each month.
 >
-> The biggest issue: [Specific finding — e.g., "Your profile hasn't had a single post in over 90 days. Google's algorithm treats this as a signal that the business is inactive, which drops your ranking in Maps."]
+> The biggest issue: [Specific finding - e.g., "Your profile hasn't had a single post in over 90 days. Google's algorithm treats this as a signal that the business is inactive, which drops your ranking in Maps."]
 >
-> I also noticed [Second specific finding — e.g., "You have 14 reviews but haven't responded to any of them. Google uses response rate as a local ranking factor — your competitors who respond are outranking you on that signal alone."]
+> I also noticed [Second specific finding - e.g., "You have 14 reviews but haven't responded to any of them. Google uses response rate as a local ranking factor. Your competitors who respond are outranking you on that signal alone."]
 >
-> I do local SEO audits and fix plans for businesses like yours — I actually put together a report on [Business Name] that I'd share on a quick 15-minute call if you want to see it.
+> I do local SEO audits and fix plans for businesses like yours. I put together a short summary for [Business Name] and can send over the top issues by email if you want to see it.
 >
 > No pitch. Just the data and what I'd fix.
 >
-> — [Your Name]  
+> - [Your Name]  
 > RankReady | rankready.com  
-> [Phone]
+> [email]
 
 ---
 
 **Notes:**
 - Do not attach anything. Attachments get flagged as spam.
 - Do not mention pricing in the first email.
-- "No pitch, just the data" is not false — the call is genuinely about showing them the audit first.
-- Use "calls" not "leads" or "traffic" — business owners think in calls.
+- Keep the CTA email-only. Do not offer calls.
+- Use plain ASCII punctuation in subject lines and body copy.
 
 ---
 
@@ -58,15 +58,15 @@
 
 ---
 
-**Subject:** `[Business Name] — noticed this on your Google profile`
+**Subject:** `[Business Name] - noticed this on your Google profile`
 
 > Hi [First Name],
 >
 > I ran an audit on [Business Name]'s Google Business Profile and found one issue that's likely suppressing your Maps ranking: [specific finding in one sentence].
 >
-> I put together a short summary. Worth a 10-minute call?
+> I put together a short summary. If you want, I can send it over by email.
 >
-> — [Your Name], RankReady
+> - [Your Name], RankReady
 
 ---
 
@@ -85,18 +85,18 @@
 
 ---
 
-> Hi [First Name] — quick note on [Business Name]'s Google profile.
+> Hi [First Name] - quick note on [Business Name]'s Google profile.
 >
 > I ran an audit on it and found [specific issue in one phrase, e.g., "no posts in 6 months"]. That's one of the bigger ranking factors Google uses for Maps right now.
 >
-> I put together a short report on it — happy to share if useful. Is email better for you, or should I just drop it here?
+> I put together a short report on it. Happy to send it over by email if useful.
 
 ---
 
 **Notes:**
-- The closing question ("email or here?") invites a low-friction reply.
-- Do not lead with "I'm from RankReady" — that reads like a pitch.
-- If they ask what you do: "I help local businesses fix their Google Business Profile so they rank higher in Maps and get more calls. I do a paid audit for $199 or a quick free version."
+- Keep the CTA low-friction and email-first.
+- Do not lead with "I'm from RankReady" - that reads like a pitch.
+- If they ask what you do: "I help local businesses fix their Google Business Profile so they rank higher in Maps. I do a paid audit for $199 or a quick free version."
 
 ---
 
@@ -108,17 +108,17 @@
 
 ---
 
-**Subject:** `[Business Name] — one more thing I noticed`
+**Subject:** `[Business Name] - one more thing I noticed`
 
 > Hi [First Name],
 >
 > Wanted to follow up on my note from [day of week].
 >
-> One more thing I found when I dug into [Business Name]'s profile: [new specific finding — different from what you mentioned in email #1, e.g., "Your business category is listed as 'General Contractor' but competitors ranking above you are listed as 'HVAC Contractor' — Google prioritizes exact category matches for local searches."].
+> One more thing I found when I dug into [Business Name]'s profile: [new specific finding - different from what you mentioned in email #1, e.g., "Your business category is listed as 'General Contractor' but competitors ranking above you are listed as 'HVAC Contractor.' Google prioritizes exact category matches for local searches."].
 >
-> Still happy to walk you through the full report on a quick call. Just reply and we'll find a time.
+> I can send over the full report by email if useful. Just reply and I'll send it.
 >
-> — [Your Name], RankReady
+> - [Your Name], RankReady
 
 ---
 
@@ -141,13 +141,13 @@
 
 > Hi [First Name],
 >
-> Last message from me on this — I don't want to clog your inbox.
+> Last message from me on this - I don't want to clog your inbox.
 >
 > If fixing [Business Name]'s Google presence isn't a priority right now, totally understand. I'll leave you alone.
 >
-> If it ever comes back up, I'm at [email] / [phone]. The free audit is still at rankready.com if you want to pull the data yourself.
+> If it ever comes back up, I'm at [email]. If you want the findings later, just reply and I'll send them over.
 >
-> — [Your Name]
+> - [Your Name]
 
 ---
 
@@ -166,11 +166,11 @@
 
 ---
 
-**Subject:** `Referral arrangement — you do web design, I do local SEO`
+**Subject:** `Referral arrangement - you do web design, I do local SEO`
 
 > Hi [First Name],
 >
-> I came across your work — you do web design for local businesses, and I do Google Business Profile optimization and local SEO audits for the same type of clients.
+> I came across your work - you do web design for local businesses, and I do Google Business Profile optimization and local SEO audits for the same type of clients.
 >
 > The gap I keep running into: business owners get a new site, ask "how do I show up on Google," and have no one to hand them off to. That's usually the moment you finish and move on.
 >
@@ -178,9 +178,9 @@
 >
 > Nothing to sign. Just a mutual arrangement that makes both of us more useful to our clients.
 >
-> Worth a 15-minute call to see if there's a fit?
+> If you're open to it, reply by email and I'll send over a simple referral setup.
 >
-> — [Your Name]  
+> - [Your Name]  
 > RankReady | rankready.com
 
 ---
